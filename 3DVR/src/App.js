@@ -9,9 +9,6 @@ function App() {
         <p className="Catch-phrase">
         Build The Future
         </p>
-        <p>
-          
-        </p>
       </header>
     </div>
   );
