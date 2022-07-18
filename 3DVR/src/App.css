@@ -13,6 +13,11 @@
   /* animation: 3s linear 1s infinite alternate slidein ; */
 }
 
+.Catch-phrase{
+color : rgb(50,50,150)
+
+}
+
 @keyframes App-logo-animation {
   from {
       opacity: 0; 
@@ -39,4 +44,5 @@
 .App-header{
   /* padding: 10px; */
 }
+
 
