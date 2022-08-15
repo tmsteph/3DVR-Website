@@ -14,10 +14,18 @@
 }
 
 .Catch-phrase{
-color : rgb(50,50,150)
+color : rgb(213, 76, 76);
+font-size: 4rem;
+margin: 0 0 0 0 ;
 
 }
-
+.Productions {
+  color:rgb(141, 195, 216);
+  margin:0px 0px -2.5rem 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10rem;
+  font-weight: bold;
+}
 @keyframes App-logo-animation {
   from {
       opacity: 0; 
@@ -27,7 +35,7 @@ color : rgb(50,50,150)
   }
 }
 .App-header {
-  background-color: #282c34;
+  background-color: #1a84a1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,7 +46,7 @@ color : rgb(50,50,150)
 }
 
 .App-link {
-  color: #61dafb;
+  color: #3a798a;
 }
 
 .App-header{
@@ -46,3 +54,18 @@ color : rgb(50,50,150)
 }
 
 
+#star-six {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  position: relative;
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+ 
