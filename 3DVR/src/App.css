@@ -1,30 +1,34 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .App-logo { */
+
+  /* pointer-events: none; */
+/* } */
 
 .App-logo {
-  justify-content: center;
+  height: 17vw;
+  /* height: 17vh; */
+  margin: 0 0 0 0;
+  /* justify-content: center; */
   animation: App-logo-animation 7s  ;
   /* animation: 3s linear 1s infinite alternate slidein ; */
 }
 
 .Catch-phrase{
 color:rgb(174, 174, 174);
-font-size: 4rem;
-margin: 0 0 0 0 ;
+font-size: 5vw;
+margin: -2vw 0 0 0 ;
 font-family:"sans-serif";
 
 }
 .Productions {
-  color:rgb(141, 195, 216);
-  margin:0px 0px -2.5rem 0px;
+  color:rgb(193, 213, 220);
+  margin:0px 0px 0vw 0px;
   font-family: "Times New Roman", Times, serif;
-  font-size: 10rem;
+  font-size: 12.7vw;
   font-weight: bold;
 }
 @keyframes App-logo-animation {
@@ -36,7 +40,7 @@ font-family:"sans-serif";
   }
 }
 .App-header {
-  background-color: #1a84a1;
+  background-color: #3b4548;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
