@@ -9,7 +9,7 @@
 /* } */
 
 .App-logo {
-  height: 17vw;
+  height: 19vw;
   /* height: 17vh; */
   margin: 0 0 0 0;
   /* justify-content: center; */
@@ -26,7 +26,7 @@ font-family:"sans-serif";
 }
 .Productions {
   color:rgb(193, 213, 220);
-  margin:0px 0px 0vw 0px;
+  margin:-3.5vw 0px 0vw 0px;
   font-family: "Times New Roman", Times, serif;
   font-size: 12.7vw;
   font-weight: bold;
