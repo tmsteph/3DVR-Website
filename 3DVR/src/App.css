@@ -1,5 +1,5 @@
 .App {
-  /* text-align: center; */
+  text-align: center;
   
 }
 
@@ -18,7 +18,7 @@
 }
 
 .Catch-phrase{
-color:rgb(174, 174, 174);
+color:rgb(155, 183, 183);
 font-size: 5vw;
 margin: -2vw 0 0 0 ;
 font-family:"sans-serif";
@@ -30,6 +30,14 @@ font-family:"sans-serif";
   font-family: "Times New Roman", Times, serif;
   font-size: 12.7vw;
   font-weight: bold;
+}
+
+.coming-soon{
+
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: rgb(15, 36, 36);
+  /* margin: -0vw; */
 }
 @keyframes App-logo-animation {
   from {
@@ -54,9 +62,9 @@ font-family:"sans-serif";
   color: #3a798a;
 }
 
-.App-header{
-  /* padding: 10px; */
-}
+/* .App-header{
+  padding: 10px;
+} */
 
 
 #star-six {
