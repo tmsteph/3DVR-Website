@@ -13,7 +13,7 @@ function App() {
         <p className="Catch-phrase">
         Build The Future
         </p>
-       <p className='coming-soon'>coming soon...</p> 
+       <p className='coming-soon'>Biography coming soon...</p> 
       </header>
     </div>
   );
