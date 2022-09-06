@@ -1,7 +1,23 @@
-.App {
-  text-align: center;
+.test{
+  background-color: #3b4548;
+  font-size: 5vw
 }
 
+.App {
+  text-align: center;
+  /* background-color: #3b4548; */
+}
+
+.App-header {
+  background-color: #3b4548;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+}
 
 .App-logo {
   pointer-events: none;
@@ -13,28 +29,6 @@
   /* animation: 3s linear 1s infinite alternate slidein ; */
 }
 
-.Catch-phrase{
-color:rgb(155, 183, 183);
-font-size: 5vw;
-margin: -2vw 0 0 0 ;
-font-family:"Roboto","sans-serif";
-
-}
-.Productions {
-  color:rgb(193, 213, 220);
-  margin:-3.5vw 0px 0vw 0px;
-  font-family: serif;
-  font-size: 12.7vw;
-  font-weight: bold;
-}
-  
-.coming-soon{
-  font-family: 'Roboto', serif;
-  font-size: 2.5vw;
-  font-weight: bold;
-  color: rgb(15, 36, 36);
-  /* margin: -0vw; */
-}
 @keyframes App-logo-animation {
   from {
       opacity: 0; 
@@ -43,36 +37,95 @@ font-family:"Roboto","sans-serif";
     opacity: 1;
   }
 }
-.App-header {
-  background-color: #3b4548;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.Productions {
+  color:rgb(193, 213, 220);
+  margin:-3.5vw 0px 0vw 0px;
+  font-family: serif;
+  font-size: 12.7vw;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #3a798a;
+.Catch-phrase{
+  color:rgb(155, 183, 183);
+  font-size: 5vw;
+  margin: -2vw 0 0 0 ;
+  /* font-family:"Roboto"; */
+  }
+
+.introduction-section{
+  padding: 20rem 0 20rem 0;
+  background: linear-gradient(#3b4548 5% , #8ec6d7 30% 70%, #b37070 90% 100%  ); 
+  -moz-transition: background 0.3s ease-in;
+  -o-transition: background 0.3s ease-in;
+  -webkit-transition: background 0.3s ease-in;
+  /* background-color: #8ec6d7; */
+  /* margin: 0; */
+}
+.we-are-a{
+  font-size: 5vw;
+  font-weight: 600;
+padding: 10rem 0 2rem;
+}
+.creating-universal{
+  font-size: 5vw;
+  font-weight:600;
+  padding: 5rem 0 15rem;
 }
 
-
-
-
-#star-six {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid red;
-  position: relative;
+.tool-section{
+  background: linear-gradient(#b37070 80%, #9d4ca9); 
+  -moz-transition: background 0.3s ease-in;
+  -o-transition: background 0.3s ease-in;
+  -webkit-transition: background 0.3s ease-in;
+  /* background-color: #b37070; */
+  margin-top:-.5rem;
+  padding: 10rem 1rem 30rem;
+}
+.using-free{
+  font-size:4.5vw;
+  font-weight:500;
+}
+.tool-list{
+  font-size:3.5vw
 }
 
-@keyframes blink {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
+.plan-section{
+  background: linear-gradient( #9d4ca9 70% ,#edc2c2 90%); 
+  background-color:#9d4ca9;
+  padding: 20rem 0 40rem ;
+  margin: 0 0 0rem;
 }
- 
+.creating-environments{
+  font-size: 5vw;
+  font-weight: 600;
+}
+.biography-section{
+  background-color: #edc2c2;
+  font-size: 5vw
+}
+.biography-title{
+  font-size : 4rem;
+  font-weight: bold;
+  padding: 5rem;
+}
+.thomas-biography-name{
+  font-size: 1.5rem;
+  font-weight: 525;
+  padding: 2rem;
+}
+.thomas-biography-paragraph {
+  padding: .5rem;
+  font-weight: 350;
+  font-size:1.3rem ;
+}
+.david-biography-name{
+  font-size:1.5rem ;
+  font-weight: 525;
+  padding: 2rem;
+}
+.david-biography-paragraph {
+  font-weight: 350;
+  font-size: 1.3rem;
+  padding: .5rem
+}
