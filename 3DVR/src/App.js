@@ -1,3 +1,5 @@
+/* Ignore the imports */ 
+
 import logo from './3DVR.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -5,19 +7,22 @@ import {
   Container, Row, Col, Navbar, Nav
 } from 'react-bootstrap'
 
+/* Below is the function that contains the entire app */
+
 function App() {
   return (
 
     /* Welcome to this app. 
+   
     It is a portfolio website. 
     
     App.js is the main page where most scripts are 
     contained */
 
 
-/* Here is the app header.  */
+/* Here is the app  */
     <div className="App">
-      {/* Below is the beginning section for the app header*/}
+      {/* app header*/}
       <header  className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* above is the import for the logo */}
@@ -75,6 +80,41 @@ function App() {
         <h2 className = "creating-environments">Developing Environments to Explore</h2>
         </div>
         
+        {/* ----------------- Three.js section ----------*/}
+
+import * as THREE from 'three';
+
+const scene = new THREE.Scene();
+
+
+componentDidMount() {
+    // === THREE.JS CODE START ===
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    document.body.appendChild( renderer.domElement );
+    var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+    var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+    var cube = new THREE.Mesh( geometry, material );
+    scene.add( cube );
+    camera.position.z = 5;
+    var animate = function () {
+      requestAnimationFrame( animate );
+      cube.rotation.x += 0.01;
+      cube.rotation.y += 0.01;
+      renderer.render( scene, camera );
+    };
+    animate();
+    // === THREE.JS EXAMPLE CODE END ===
+  }
+  render() {
+    return (
+      <div />
+    )
+  }
+}
+
 
         {/* -----------------  Biography    ------------ */}
         <div className = "biography-section">
@@ -123,17 +163,22 @@ function App() {
             <h2 className = "david-biography-name">David Martínez R.</h2>  
             {/* Paragraphs */}
             <p className = "david-biography-paragraph">
-              David has been working as a designer in fields of web design, photography,
-              3D modeling and animation.</p>
+              David has been working as a designer in fields of web design, 
+	      photography, 3D modeling and animation.</p>
 
               <p className = "david-biography-paragraph">
-                He is excited to step into the Virtual World to take the next step into 3DVR Design </p>
+                He is excited to step into the Virtual World to take the next 
+                step into 3DVR Design </p>
             
             <p className = "david-biography-paragraph">
-              Creative, visionar, and artist. David has a passion for learning new technologies. </p>
+              Creative, visionar, and artist. David has a passion 
+              for learning new technologies. </p>
             <p className = "david-biography-paragraph"></p>  
             </div>  {/* Close of david-biography */}
-            </Col> 
+            </Col>
+	{/* Need to put Darrel's biography here */}
+	{/* End that guy's biography */}
+
             </Row>
         </Container>
         </div>
