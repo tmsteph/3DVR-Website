@@ -70,12 +70,25 @@ function App() {
         {/* </Container> */} 
         </div>
 
-        {/* Fourth blurb */}
-        <div className = "plan-section">
-        <h2 className = "creating-environments">Developing Environments to Explore</h2>
-        </div>
-        
+{/* Fourth blurb */}
+<div className = "plan-section">
+<h2 className = "creating-environments">Developing Environments to Explore</h2>
+</div>
 
+	{/* -----------------  What We Do  ------------- */}
+	<div className = "what-we-do-section">
+	<h1>What We Do</h1>
+	<h2>3d Design</h2>
+	<h2>Integration</h2>
+	<h3>web</h3>
+	<h3>App</h3>
+	<h2>Metaverse Worlds</h2>
+	<h1>Unity 3d
+	</div>
+	{/* ----------------- Projects ------------------ */}
+	<div className = "projects-section">
+	<h1 classname = "projects-title">Projects</h1>
+	</div>
         {/* -----------------  Biography    ------------ */}
         <div className = "biography-section">
 
