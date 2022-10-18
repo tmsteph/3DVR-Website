@@ -83,21 +83,26 @@ function App() {
         </div>
         
         {/* ----------------- @react-three/fiber section ----------*/}
-        <div id="canvas-container">
-        <Canvas>
+<div id="canvas-container">
+ <Canvas>
   <mesh>
-    <boxGeometry />
-    <meshStandardMaterial />
+   <boxGeometry />
+   <meshStandardMaterial />
   </mesh>
-  </Canvas>
-        </div>
+ </Canvas>
+</div>
 
         {/* ReactDOM.render(<App />, document.getElementById('root')) */}
 
 
-        {/* -----------------  Three.js section ----------------*/}
 
-        {/* -----------------  Biography    ------------ */}
+
+
+
+
+	
+
+	{/* -----------------  Biography    ------------ */}
         <div className = "biography-section">
 
         <Container> {/*Container for formatting */}
