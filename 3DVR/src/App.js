@@ -82,7 +82,7 @@ function App() {
         <h2 className = "creating-environments">Developing Environments to Explore</h2>
         </div>
         
-        {/* ----------------- Three.js section ----------*/}
+        {/* ----------------- @react-three/fiber section ----------*/}
         <div id="canvas-container">
         <Canvas>
   <mesh>
@@ -94,6 +94,8 @@ function App() {
 
         {/* ReactDOM.render(<App />, document.getElementById('root')) */}
 
+
+        {/* -----------------  Three.js section ----------------*/}
 
         {/* -----------------  Biography    ------------ */}
         <div className = "biography-section">
