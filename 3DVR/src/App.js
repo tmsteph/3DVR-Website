@@ -83,7 +83,7 @@ function App() {
 	<h3>web</h3>
 	<h3>App</h3>
 	<h2>Metaverse Worlds</h2>
-	<h1>Unity 3d
+	<h1>Unity 3d</h1>
 	</div>
 	{/* ----------------- Projects ------------------ */}
 	<div className = "projects-section">
