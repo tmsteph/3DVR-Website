@@ -72,7 +72,8 @@ function App() {
 
 {/* Fourth blurb */}
 <div className = "plan-section">
-<h2 className = "creating-environments">Developing Environments to Explore</h2>
+  <h2 className = "creating-environments">
+	Developing Environments to Explore</h2>
 </div>
 
 	{/* -----------------  What We Do  ------------- */}
@@ -85,9 +86,11 @@ function App() {
 	<h2>Metaverse Worlds</h2>
 	<h1>Unity 3d</h1>
 	</div>
+
 	{/* ----------------- Projects ------------------ */}
 	<div className = "projects-section">
 	<h1 classname = "projects-title">Projects</h1>
+
 	</div>
         {/* -----------------  Biography    ------------ */}
         <div className = "biography-section">

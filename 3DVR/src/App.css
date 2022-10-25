@@ -77,10 +77,6 @@ padding: 10rem 0 2rem;
 
 .tool-section{
   background: linear-gradient(#b37070 80%, #9d4ca9); 
-  -moz-transition: background 0.3s ease-in;
-  -o-transition: background 0.3s ease-in;
-  -webkit-transition: background 0.3s ease-in;
-  /* background-color: #b37070; */
   margin-top:-.5rem;
   padding: 10rem 1rem 30rem;
 }
@@ -94,16 +90,21 @@ padding: 10rem 0 2rem;
 
 .plan-section{
   background: linear-gradient( #9d4ca9 70% ,#edc2c2 90%); 
-  background-color:#9d4ca9;
   padding: 20rem 0 40rem ;
   margin: 0 0 0rem;
 }
+
 .creating-environments{
   font-size: 5vw;
   font-weight: 600;
 }
-.biography-section{
+
+.what-we-do-section {
+
   background-color: #edc2c2;
+}
+.biography-section{
+  background-color: rgb(200,200,255);
   font-size: 5vw
 }
 .biography-title{
