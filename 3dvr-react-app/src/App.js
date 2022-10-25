@@ -8,11 +8,10 @@ import {
 function App() {
   return (
 
-    /* Welcome to this app. 
-    It is a portfolio website. 
+    /* Welcome to this react app. 
     
     App.js is the main page where most scripts are 
-    contained */
+    contained. */
 
 
 /* Here is the app header.  */
