@@ -1,3 +1,5 @@
+/*I want to allow people to create their own worlds effortlessly*/
+
 .test{
   background-color: #3b4548;
   font-size: 5vw
@@ -19,6 +21,15 @@
   /* color: white; */
 }
 
+@keyframes App-logo-animation {
+  from {
+      opacity: 0; 
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .App-logo {
   pointer-events: none;
   height: 19vw;
@@ -27,15 +38,6 @@
   /* justify-content: center; */
   animation: App-logo-animation 7s  ;
   /* animation: 3s linear 1s infinite alternate slidein ; */
-}
-
-@keyframes App-logo-animation {
-  from {
-      opacity: 0; 
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .Productions {
