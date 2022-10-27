@@ -55,7 +55,7 @@ function App() {
           <Col>
 
    {/* Third Blurb */}
-        <h2 className = "using-free">Using Free and Universal Tools</h2>
+        <h2 className = "using-free">Using the latest Tools</h2>
           </Col> 
           <Col> 
         <ul className = "tool-list">
@@ -78,10 +78,34 @@ function App() {
 	{/* -----------------  What We Do  ------------- */}
 	<div className = "what-we-do-section">
 	<h1>What We Do</h1>
+	
 	<h2>3d Design</h2>
+	
+	<p>Using Cinema 4d, Blender, and other 3d creation software, we 
+	  create the objects that you need. </p>
+
 	<h2>Integration</h2>
+	
+	<p>We've done the reasearch to make sure your app runs smoothly 
+	  across all devices.</p> 
+	
 	<h3>web</h3>
+	<p>Thanks to current technologies, 3d elements and experiences can be em         bedded right inside any website.</p> 
+	
+	<h4>three.js</h4>
+
+	<h4>A-frame</h4>
+
 	<h3>App</h3>
+	
+	<h4>React</h4>
+
+	<p>React three fiber is a library that lets us create a hybrid app that 
+	includes 2d and 3d interactive components</p>
+
+	<h4>Flutter</h4>
+	<p>Cross-Platform app creation</p>
+
 	<h2>Metaverse Worlds</h2>
 	<h1>Unity 3d</h1>
 	</div>
