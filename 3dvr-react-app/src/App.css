@@ -100,8 +100,18 @@ padding: 10rem 0 2rem;
 }
 
 .what-we-do-section {
-
   background-color: #edc2c2;
+  display:grid;
+}
+.flex-container {
+
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex: 1;     */
+  display:grid;
+
+
 }
 .projects-section {
   background-color:#a0d0ff;

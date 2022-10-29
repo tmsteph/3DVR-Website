@@ -77,26 +77,30 @@ function App() {
 
 	{/* -----------------  What We Do  ------------- */}
 	<div className = "what-we-do-section">
-	<h1>What We Do</h1>
-	
+<div class="container">
+<div class='row'>
+<h1>What We Do</h1> 
+  </div>
+ <div class='row'> 
+ <div class='col-md'>
 	<h2>3d Design</h2>
 	
 	<p>Using Cinema 4d, Blender, and other 3d creation software, we 
-	  create the objects that you need. </p>
+	  create the virtual objects that will make up your world. </p>
+    </div>
 
-	<h2>Integration</h2>
+  <div class = 'col-md'>
+	<h2>Web App Integration</h2>
 	
 	<p>We've done the reasearch to make sure your app runs smoothly 
 	  across all devices.</p> 
 	
-	<h3>web</h3>
-	<p>Thanks to current technologies, 3d elements and experiences can be em         bedded right inside any website.</p> 
+	<p>Thanks to current technologies, 3d elements and experiences can be 
+    embedded right inside any website.</p> 
 	
 	<h4>three.js</h4>
 
 	<h4>A-frame</h4>
-
-	<h3>App</h3>
 	
 	<h4>React</h4>
 
@@ -105,16 +109,27 @@ function App() {
 
 	<h4>Flutter</h4>
 	<p>Cross-Platform app creation</p>
-
+  </div>
+  
+  <div class = 'col-md'>
 	<h2>Metaverse Worlds</h2>
-	<h1>Unity 3d</h1>
+  <p>This is a paragraph about metaverse Worlds</p>
+	<h3>Unity 3d</h3>
 	</div>
 
+  </div>  
+  </div>
+
+</div>
 	{/* ----------------- Projects ------------------ */}
 	<div className = "projects-section">
+    <div class = 'container'>
 	<h1 classname = "projects-title">Projects</h1>
-        <h2>House in Unity</h2>
-	<h2>Gif English Center</h2>
+      <div class = 'row'>
+        <div class = 'col'><h2>House in Unity</h2></div>
+	<div class = 'col'><h2>Gif English Center</h2></div>
+  </div>
+  </div>
 	</div>
         {/* -----------------  Biography    ------------ */}
         <div className = "biography-section">
