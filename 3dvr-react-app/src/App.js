@@ -79,42 +79,48 @@ function App() {
 	<div className = "what-we-do-section">
 <div class="container">
 <div class='row'>
-<h1>What We Do</h1> 
+<h1 className = 'what-we-do-title'>What We Do</h1> 
   </div>
  <div class='row'> 
  <div class='col-md'>
 	<h2>3d Design</h2>
 	
-	<p>Using Cinema 4d, Blender, and other 3d creation software, we 
-	  create the virtual objects that will make up your world. </p>
+	<p>Dream up virtual objects.</p>
+
+    <h4> Cinema 4d</h4>
+    <h4>Blender</h4>
+    <h4>Gravity Sketch</h4>
     </div>
 
   <div class = 'col-md'>
 	<h2>Web App Integration</h2>
 	
-	<p>We've done the reasearch to make sure your app runs smoothly 
-	  across all devices.</p> 
+	{/* <p>We've done the reasearch to make sure your app runs smoothly  */}
+	  {/* across all devices.</p>  */}
 	
-	<p>Thanks to current technologies, 3d elements and experiences can be 
-    embedded right inside any website.</p> 
+	<p>Showcase experiences
+    using the power of the web 
+    </p> 
 	
 	<h4>three.js</h4>
 
 	<h4>A-frame</h4>
 	
-	<h4>React</h4>
+	<h4>React Three Fiber</h4>
 
-	<p>React three fiber is a library that lets us create a hybrid app that 
-	includes 2d and 3d interactive components</p>
+	{/* <p>React three fiber is a library that lets us create a hybrid app that  */}
+	{/* includes 2d and 3d interactive components</p> */}
 
-	<h4>Flutter</h4>
-	<p>Cross-Platform app creation</p>
+	{/* <h4>Flutter</h4> */}
+	{/* <p>Cross-Platform app creation</p> */}
   </div>
   
   <div class = 'col-md'>
 	<h2>Metaverse Worlds</h2>
-  <p>This is a paragraph about metaverse Worlds</p>
-	<h3>Unity 3d</h3>
+  <p>Create realistic immursive environments.</p>
+	<h4>Unity 3d</h4>
+  <h4>Alspace Worlds</h4>
+  <h4>Rec Room</h4>
 	</div>
 
   </div>  
@@ -126,8 +132,14 @@ function App() {
     <div class = 'container'>
 	<h1 classname = "projects-title">Projects</h1>
       <div class = 'row'>
-        <div class = 'col'><h2>House in Unity</h2></div>
-	<div class = 'col'><h2>Gif English Center</h2></div>
+        <div class = 'col'><h2>House in Unity</h2>
+        <p>This is a House we made for Alspace using Unity3D 
+          and AlspaceVR.
+        </p>
+        </div>
+	<div class = 'col'><h2>Gif English Center</h2>
+  <p>Gif English Center is a remarkable place in guatemala
+    where people of all ages can learn english. </p></div>
   </div>
   </div>
 	</div>
