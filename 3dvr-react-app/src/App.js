@@ -85,11 +85,11 @@ function App() {
  <div class='col-md'>
 	<h2>3d Design</h2>
 	
-	<p>Dream up virtual objects.</p>
+	<p><em>Dream up virtual objects.</em></p>
 
-    <h4> Cinema 4d</h4>
-    <h4>Blender</h4>
-    <h4>Gravity Sketch</h4>
+    <h4><a href="https://www.maxon.net/en/cinema-4d" className="plain-link" target="_blank" rel="noreferrer"> Cinema 4d</a></h4>
+    <h4><a href="https://www.blender.org/about/" className="plain-link" target = "_blank" rel="noreferrer">Blender</a></h4>
+    <h4><a href="https://www.gravitysketch.com/" className="plain-link" target="_blank" rel="noreferrer">Gravity Sketch</a></h4>
     </div>
 
   <div class = 'col-md'>
@@ -98,15 +98,15 @@ function App() {
 	{/* <p>We've done the reasearch to make sure your app runs smoothly  */}
 	  {/* across all devices.</p>  */}
 	
-	<p>Showcase experiences
+	<p><em>Showcase experiences
     using the power of the web 
-    </p> 
+    </em></p> 
 	
-	<h4>three.js</h4>
+	<h4><a href="https://threejs.org/examples/#webgl_animation_keyframes" className="plain-link"  rel="noreferrer" target="_blank"> three.js</a></h4>
 
-	<h4>A-frame</h4>
+	<h4><a href="https://aframe.io/" className="plain-link" target="_blank" rel="noreferrer">A-frame</a></h4>
 	
-	<h4>React Three Fiber</h4>
+	<h4><a href="https://docs.pmnd.rs/react-three-fiber/getting-started/introduction" className="plain-link" targer="_blank" rel="noreferrer" > React Three Fiber</a></h4>
 
 	{/* <p>React three fiber is a library that lets us create a hybrid app that  */}
 	{/* includes 2d and 3d interactive components</p> */}
@@ -117,7 +117,7 @@ function App() {
   
   <div class = 'col-md'>
 	<h2>Metaverse Worlds</h2>
-  <p>Create realistic immursive environments.</p>
+  <p><em>Create realistic immersive environments.</em></p>
 	<h4>Unity 3d</h4>
   <h4>Alspace Worlds</h4>
   <h4>Rec Room</h4>

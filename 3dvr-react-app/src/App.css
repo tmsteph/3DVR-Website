@@ -109,7 +109,13 @@ padding-bottom:12rem;
   padding-bottom: 5rem;
 
 }
-
+.plain-link:link, .plain-link:visited, .plain-link:hover,
+.plain-link:active 
+ {
+  all: none;
+  text-decoration: none;
+  color: black;
+}
 .projects-section {
   background-color:#a0d0ff;
   Padding: 5rem;
