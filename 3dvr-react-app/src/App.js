@@ -42,7 +42,7 @@ function App() {
 {/* First blurb  */}
 
           {/* <Container> */}
-            <h2 className = "we-are-a">We are an emerging technology company.</h2>
+            <h2 className = "we-are-a">We are an emerging technology company</h2>
             <h2 className = "creating-universal">Creating Universal Experiences</h2>
           {/* </Container> */}
         </div>
@@ -50,17 +50,18 @@ function App() {
    {/* Secont Blurb -- */}
 
         <div className = "tool-section">
+
+
           {/* <Container> */}
          <Row>
           <Col>
 
-   {/* Third Blurb */}
         <h2 className = "using-free">Using the latest Tools</h2>
           </Col> 
           <Col> 
         <ul className = "tool-list">
           {/* <li>Blender 3D</li> someday..*/}
-          <li>Unity 3D</li>
+          <li>Unity</li>
           <li>three.js</li>
           <li>React</li>
         </ul>
@@ -69,7 +70,8 @@ function App() {
         {/* </Container> */} 
         </div>
 
-{/* Fourth blurb */}
+
+   {/* Third Blurb */}
 <div className = "plan-section">
   <h2 className = "creating-environments">
 	Developing Environments to Explore</h2>
@@ -82,7 +84,7 @@ function App() {
 <h1 className = 'what-we-do-title'>What We Do</h1> 
   </div>
  <div class='row'> 
- <div class='col-md'>
+ <div className="col-md what-we-do-column-formatting">
 	<h2>3d Design</h2>
 	
 	<p><em>Dream up virtual objects.</em></p>
@@ -92,7 +94,7 @@ function App() {
     <h4><a href="https://www.gravitysketch.com/" className="plain-link" target="_blank" rel="noreferrer">Gravity Sketch</a></h4>
     </div>
 
-  <div class = 'col-md'>
+  <div class = 'col-md what-we-do-column-formatting'>
 	<h2>Web App Integration</h2>
 	
 	{/* <p>We've done the reasearch to make sure your app runs smoothly  */}
@@ -115,7 +117,7 @@ function App() {
 	{/* <p>Cross-Platform app creation</p> */}
   </div>
   
-  <div class = 'col-md'>
+  <div class = 'col-md what-we-do-column-formatting'>
 	<h2>Metaverse Worlds</h2>
   <p><em>Create realistic immersive environments.</em></p>
 	<h4>Unity 3d</h4>

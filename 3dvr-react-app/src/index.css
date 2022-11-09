@@ -11,10 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
 }
-/* import google fonts*/
-/* import './fonts/Kalam/Kalam-Regular' */
+
 @font-face {
   font-family: 'Kalam';
-  src: local('Kalam'), url(./fonts/Kalam/Kalam-Regular.ttf) format('ttf');
+  src: local('Kalam'), 
+  url(./fonts/Kalam/Kalam-Regular.ttf) format('truetype');
 }
-@import url("https://fonts.googleapis.com/css?family=Roboto")
+/* @import url("https://fonts.googleapis.com/css?family=Roboto") */

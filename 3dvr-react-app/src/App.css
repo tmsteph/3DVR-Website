@@ -65,21 +65,23 @@
   /* margin: 0; */
 }
 .we-are-a{
-  font-size: 5vw;
+  font-size: 5.2vw;
   font-weight: 600;
 padding: 10rem 0 2rem;
-font-family: Kalam;
+font-family: Kalam, serif;
 }
 .creating-universal{
-  font-size: 5vw;
+  font-size: 5.2vw;
   font-weight:600;
   padding: 5rem 0 15rem;
+font-family: Kalam, serif;
 }
 
 .tool-section{
   background: linear-gradient(#b37070 80%, #9d4ca9); 
   margin-top:-.5rem;
   padding: 10rem 1rem 30rem;
+  font-family: Kalam, serif;
 }
 .using-free{
   font-size:4.5vw;
@@ -98,6 +100,7 @@ font-family: Kalam;
 .creating-environments{
   font-size: 5vw;
   font-weight: 600;
+  font-family: Kalam, serif;
 }
 
 .what-we-do-section {
@@ -110,6 +113,11 @@ padding-bottom:12rem;
   padding-bottom: 5rem;
 
 }
+
+.what-we-do-column-formatting {
+  padding-bottom: 5rem;
+}
+
 .plain-link:link, .plain-link:visited, .plain-link:hover,
 .plain-link:active 
  {
