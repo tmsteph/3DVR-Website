@@ -1,3 +1,4 @@
+import unityhousevideo from './videos/UnityHouse.mp4'
 import logo from './3DVR.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -5,17 +6,25 @@ import {
   Container, Row, Col, Navbar, Nav
 } from 'react-bootstrap'
 
-function App() {
-  return (
-
-    /* Welcome to this react app. 
+// var video = document.getElementById("myVideo");
+// video.oncanplaythrough = function() {
+  //     video.muted = true;
+  //     video.play();
+  //   }
+  
+  function App() {
     
-    App.js is the main page where most scripts are 
-    contained. */
-
-
-/* Here is the app header.  */
-    <div className="App">
+    
+    return (
+      
+      /* Welcome to this react app. 
+      
+      App.js is the main page where most scripts are 
+      contained. */
+      
+      
+      
+      <div className="App">
       {/* Below is the beginning section for the app header*/}
       <header  className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -124,27 +133,79 @@ function App() {
   <h4>Alspace Worlds</h4>
   <h4>Rec Room</h4>
 	</div>
-
   </div>  
   </div>
-
 </div>
+
 	{/* ----------------- Projects ------------------ */}
 	<div className = "projects-section">
     <div class = 'container'>
-	<h1 classname = "projects-title">Projects</h1>
+
+
+
+
+
+<video preload="none" autoplay="autoplay" id="video"  muted playsinline loop>
+  <source src={unityhousevideo} type="video/mp4"/>
+    
+  Your Broser DOes not support
+</video>
+
+     <div className="invisible" > 
+     
+     {/* {(() => {
+
+     document.querySelector('video').playbackRate = .1
+    })()} */}
+
+    {/* <>
+    {(() => {
+      
+      let options = {
+        root: null,
+      rootMargin:'0px',
+      threshold:1.0
+    };
+    
+    let callback = (entries, observer)=>{
+      entries.forEach(entry => {
+        if(entry.target.id == 'video')
+        {
+          if (entry.isIntersecting){
+             entry.target.play();
+            }
+            else{
+              entry.target.pause();
+            }
+          }
+          
+        })};
+        
+        let observer = IntersectionObserver(callback, options);
+        observer.observe(document.querySelector('#video'));
+        
+      })()}
+      </> */}
+    
+    
+      
+     </div>
+
       <div class = 'row'>
-        <div class = 'col'><h2>House in Unity</h2>
+	<h1 className = "z-index" >Projects</h1>
+        <div class = 'col' className="z-index"><h2> House in Unity</h2>
         <p>This is a House we made for Alspace using Unity3D 
           and AlspaceVR.
         </p>
         </div>
-	<div class = 'col'><h2>Gif English Center</h2>
+
+	<div class = 'col' className="z-index"><h2>Gif English Center</h2>
   <p>Gif English Center is a remarkable place in guatemala
     where people of all ages can learn english. </p></div>
   </div>
   </div>
 	</div>
+  
         {/* -----------------  Biography    ------------ */}
         <div className = "biography-section">
 

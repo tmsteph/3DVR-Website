@@ -128,8 +128,32 @@ padding-bottom:12rem;
 .projects-section {
   background-color:#a0d0ff;
   Padding: 5rem;
-  padding-bottom: 10rem;
+  padding-bottom: 80vw;
 
+}
+.z-index {
+  z-index: 2;
+}
+
+#video {
+  height: auto;
+  width: 70vw;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  opacity: .5;
+  
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.invisible {
+  visibility:hidden;
+  position:absolute;
 }
 .biography-section{
   background-color: rgb(200,200,255);
