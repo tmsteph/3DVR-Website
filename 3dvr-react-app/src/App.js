@@ -32,14 +32,24 @@ import {
       </header>
 
     {/* Start of the app-body */}
-      <body className = "App-body">
+    <body className = "App-body">
+
      
-        {/*------- navbar section -------*/}
-      <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+     {/*------- navbar section -------*/}
+     <div onClick={() => window.location.replace("/#about")}>
+     <span>go to about</span>
+     </div>
+
+
+    <nav class="navbar navbar-expand-lg">
+      
+      <a class="navbar-brand" href="#">Navbar</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      
+      <span class="navbar-toggler-icon"></span>
+      </button>
+  
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
@@ -49,7 +59,9 @@ import {
     </div>
   </div>
 </nav>
-     
+
+
+     {/*---------------------  logo    ------------------------*/}
       <img src={logo} className="App-logo" alt="logo" />
         {/* above is the import for the logo */}
         
@@ -64,7 +76,7 @@ import {
         </p>
 
 
-      
+        <h2 id="about">About</h2>
 
         {/*-------- introduction section -------- */}
 
