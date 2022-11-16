@@ -21,14 +21,24 @@
   /* color: white; */
 }
 
-@keyframes App-logo-animation {
+.navbar {
+  /* transition: opacity 2s; */
+  animation-name: App-logo-animation;
+  animation-duration:4s;
+animation-timing-function: cubic-bezier(1,0, .7, 0) ;
+  /* animation-delay:1s; */
+
+  
+}
+@keyframes navbar-animation {
   from {
-      opacity: 0; 
+      opacity: 0;  
   }
   to {
-    opacity: 1;
+    opacity: 1
   }
 }
+
 
 .App-logo {
   pointer-events: none;
@@ -38,6 +48,15 @@
   /* justify-content: center; */
   animation: App-logo-animation 7s  ;
   /* animation: 3s linear 1s infinite alternate slidein ; */
+}
+
+@keyframes App-logo-animation {
+from {
+      opacity: 0; 
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .Productions {

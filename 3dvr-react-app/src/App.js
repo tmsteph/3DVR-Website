@@ -36,32 +36,29 @@ import {
 
      
      {/*------- navbar section -------*/}
-     <div onClick={() => window.location.replace("/#about")}>
-     <span>go to about</span>
-     </div>
+   
 
-
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar sticky-top navbar-expand">
       
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">3dvr.tech</a>
       
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      
       <span class="navbar-toggler-icon"></span>
       </button>
   
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+      <a class="nav-item nav-link active" href="#">Home</a>
+      <a class="nav-item nav-link" onClick={() => window.location.replace("/#what-we-do-section")}>What We Do</a>
+      <a class="nav-item nav-link" onClick={() => window.location.replace("/#projects-section")}>Projects</a>
+      <a class="nav-item nav-link" onClick={() => window.location.replace("/#biography-section")}>Biography</a>
     </div>
   </div>
 </nav>
 
 
      {/*---------------------  logo    ------------------------*/}
+     
       <img src={logo} className="App-logo" alt="logo" />
         {/* above is the import for the logo */}
         
@@ -76,7 +73,6 @@ import {
         </p>
 
 
-        <h2 id="about">About</h2>
 
         {/*-------- introduction section -------- */}
 
@@ -121,7 +117,7 @@ import {
 </div>
 
 	{/* -----------------  What We Do  ------------- */}
-	<div className = "what-we-do-section">
+	<div id = "what-we-do-section" className="what-we-do-section">
 <div class="container">
 <div class='row'>
 <h1 className = 'what-we-do-title'>What We Do</h1> 
@@ -172,7 +168,7 @@ import {
 </div>
 
 	{/* ----------------- Projects ------------------ */}
-	<div className = "projects-section">
+	<div className = "projects-section" id="projects-section">
     <div class = 'container'>
 
 
@@ -241,7 +237,7 @@ import {
 	</div>
   
         {/* -----------------  Biography    ------------ */}
-        <div className = "biography-section">
+        <div className = "biography-section" id="biography-section">
 
         <Container> {/*Container for formatting */}
           <row> {/* Must add row */}
