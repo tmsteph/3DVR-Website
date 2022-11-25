@@ -3,7 +3,7 @@ import logo from './3DVR.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  Container, Row, Col, Navbar, Nav
+  Container, Row, Col,
 } from 'react-bootstrap'
 
 // var video = document.getElementById("myVideo");
@@ -14,7 +14,8 @@ import {
   
   function App() {
     
-    
+ 
+
     return (
       
       /* Welcome to this react app. 
@@ -28,37 +29,29 @@ import {
       {/* Below is the beginning section for the app header*/}
 
       <header  className="App-header">
-      
-      </header>
+       
+    </header>
 
     {/* Start of the app-body */}
     <body className = "App-body">
 
      
-     {/*------- navbar section -------*/}
-   
+     {/*------- top navbar section -------*/}
+    
 
-    <nav class="navbar sticky-top navbar-expand">
-      
-      <a class="navbar-brand" href="#">3dvr.tech</a>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-  
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home</a>
-      <a class="nav-item nav-link" onClick={() => window.location.replace("/#what-we-do-section")}>What We Do</a>
-      <a class="nav-item nav-link" onClick={() => window.location.replace("/#projects-section")}>Projects</a>
-      <a class="nav-item nav-link" onClick={() => window.location.replace("/#biography-section")}>Biography</a>
-    </div>
-  </div>
-</nav>
+<div class="topnav" id="myTopnav">
+<a  href="#home">3dvr.tech</a>
+<a  href="#home">Home</a>
+<a href="#what-we-do-section">What We Do</a>
+<a href ="#projects-section">Projects</a>
+<a href="#biography-section">Biography</a>
+<a href="#home"><img src={logo} className="nav-logo" alt="logo"></img></a>
+</div>
 
+{/*---------- end top-nav---------*/}
 
      {/*---------------------  logo    ------------------------*/}
-     
+     <div id="home">
       <img src={logo} className="App-logo" alt="logo" />
         {/* above is the import for the logo */}
         
@@ -72,7 +65,7 @@ import {
         Build The Future
         </p>
 
-
+        </div>
 
         {/*-------- introduction section -------- */}
 
@@ -176,9 +169,7 @@ import {
 
 
 <video preload="none" autoplay="autoplay" id="video"  muted playsinline loop>
-  <source src={unityhousevideo} type="video/mp4"/>
-    
-  Your Broser DOes not support
+  <source src={unityhousevideo} type="video/mp4"/>Your Broser DOes not support this video
 </video>
 
      <div className="invisible" > 
@@ -223,13 +214,12 @@ import {
 
       <div class = 'row'>
 	<h1 className = "z-index" >Projects</h1>
-        <div class = 'col' className="z-index"><h2> House in Unity</h2>
+        <div class = 'col' className="z-index projects-sections"><h2> House in Unity</h2>
         <p>This is a House we made for Alspace using Unity3D 
           and AlspaceVR.
         </p>
         </div>
-
-	<div class = 'col' className="z-index"><h2>Gif English Center</h2>
+	<div class = 'col' className="z-index projects-sections"><h2>Gif English Center</h2>
   <p>Gif English Center is a remarkable place in guatemala
     where people of all ages can learn english. </p></div>
   </div>
@@ -291,7 +281,7 @@ import {
             
             <p className = "david-biography-paragraph">
               Creative, visionar, and artist. David has a passion for learning new technologies. </p>
-            <p className = "david-biography-paragraph"></p>  
+            <p className = "david-biography-paragraph projects-sections"></p>  
             </div>  {/* Close of david-biography */}
             </Col> 
             </Row>

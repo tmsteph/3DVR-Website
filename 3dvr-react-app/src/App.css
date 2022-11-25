@@ -1,5 +1,7 @@
 /*I want to allow people to create their own worlds effortlessly*/
 
+/* this is just a test */
+
 .test{
   background-color: #3b4548;
   font-size: 5vw
@@ -21,15 +23,7 @@
   /* color: white; */
 }
 
-.navbar {
-  /* transition: opacity 2s; */
-  animation-name: App-logo-animation;
-  animation-duration:4s;
-animation-timing-function: cubic-bezier(1,0, .7, 0) ;
-  /* animation-delay:1s; */
 
-  
-}
 @keyframes navbar-animation {
   from {
       opacity: 0;  
@@ -44,7 +38,7 @@ animation-timing-function: cubic-bezier(1,0, .7, 0) ;
   pointer-events: none;
   height: 19vw;
   /* height: 17vh; */
-  margin: 0 0 0 0;
+  margin: 5rem 0 0 0;
   /* justify-content: center; */
   animation: App-logo-animation 7s  ;
   /* animation: 3s linear 1s infinite alternate slidein ; */
@@ -75,13 +69,12 @@ from {
   }
 
 .introduction-section{
+  width:100%;
   padding: 20rem 0 20rem 0;
   background: linear-gradient(#3b4548 5% , #8ec6d7 30% 70%, #b37070 90% 100%  ); 
-  -moz-transition: background 0.3s ease-in;
-  -o-transition: background 0.3s ease-in;
-  -webkit-transition: background 0.3s ease-in;
+  
   /* background-color: #8ec6d7; */
-  /* margin: 0; */
+  margin: auto;
 }
 .we-are-a{
   font-size: 5.2vw;
@@ -90,6 +83,7 @@ padding: 10rem 0 2rem;
 font-family: Kalam, serif;
 }
 .creating-universal{
+
   font-size: 5.2vw;
   font-weight:600;
   padding: 5rem 0 15rem;
@@ -97,6 +91,7 @@ font-family: Kalam, serif;
 }
 
 .tool-section{
+  width:100%;
   background: linear-gradient(#b37070 80%, #9d4ca9); 
   margin-top:-.5rem;
   padding: 10rem 1rem 30rem;
@@ -111,6 +106,7 @@ font-family: Kalam, serif;
 }
 
 .plan-section{
+  width:100%;
   background: linear-gradient( #9d4ca9 70% ,#edc2c2 90%); 
   padding: 20rem 0 40rem ;
   margin: 0 0 0rem;
@@ -123,8 +119,10 @@ font-family: Kalam, serif;
 }
 
 .what-we-do-section {
+  width:100%;
   background-color: #edc2c2;
-padding-bottom:12rem;
+  padding-top:5rem;
+  padding-bottom:12rem;
 }
 
 .what-we-do-title {
@@ -145,10 +143,15 @@ padding-bottom:12rem;
   color: black;
 }
 .projects-section {
+  width:100%;
   background-color:#a0d0ff;
   Padding: 5rem;
   padding-bottom: 80vw;
 
+}
+
+.projects-sections{
+  padding-top:10rem
 }
 .z-index {
   z-index: 2;
@@ -175,8 +178,10 @@ padding-bottom:12rem;
   position:absolute;
 }
 .biography-section{
+  width:100%;
   background-color: rgb(200,200,255);
-  font-size: 5vw
+  font-size: 5vw;
+  padding-bottom:10rem;
 }
 .biography-title{
   font-size : 4rem;
@@ -203,3 +208,60 @@ padding-bottom:12rem;
   font-size: 1.3rem;
   padding: .5rem
 }
+
+.nav-logo {
+  width: 10rem;
+  margin-left:1rem;
+
+}
+
+/* Add a black background color to the top navigation */
+
+#myTopnav {
+
+  /* animation-delay:1s; */
+}
+
+.topnav {
+  width:100%;
+  background-color: #04AA6D;
+  /* transition: opacity 2s; */
+  animation-name: App-logo-animation;
+  animation-duration:4s;
+  animation-timing-function: cubic-bezier(1,0, .7, 0) ;
+  background-color: rgb(132, 84, 84);
+  overflow: hidden;
+  position: fixed;
+  top: 0; /* Position the navbar at the top of the page */
+   /* Full width */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a  {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
+
+  
