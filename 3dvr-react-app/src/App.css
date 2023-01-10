@@ -145,28 +145,28 @@ font-family: Kalam, serif;
 .projects-section {
   width:100%;
   background-color:#a0d0ff;
-  Padding: 5rem;
-  padding-bottom: 80vw;
+  padding: 5rem;
+  padding-bottom: 10vw;
 
 }
 
 .projects-sections{
-  padding-top:10rem
+  padding-top:5rem
 }
 .z-index {
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 #video {
   height: auto;
-  width: 70vw;
-  position: absolute;
+  width: 40vw;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
-  z-index: 1;
+  /* z-index: 1; */
   opacity: .5;
   
   /* align-items: center; */
@@ -211,8 +211,10 @@ font-family: Kalam, serif;
 
 .nav-logo {
   width: 10rem;
-  margin-left:1rem;
-
+  margin-right:2rem;
+  margin-top:-.25rem;
+  position: absolute;
+  right: 0;
 }
 
 /* Add a black background color to the top navigation */
@@ -223,13 +225,16 @@ font-family: Kalam, serif;
 }
 
 .topnav {
-  width:100%;
-  background-color: #04AA6D;
+  z-index:3;
+  width:100vw;
+  /* background-color: #04AA6D; */
   /* transition: opacity 2s; */
   animation-name: App-logo-animation;
   animation-duration:4s;
   animation-timing-function: cubic-bezier(1,0, .7, 0) ;
-  background-color: rgb(132, 84, 84);
+                                                     
+  
+  background-color: #3b454869;
   overflow: hidden;
   position: fixed;
   top: 0; /* Position the navbar at the top of the page */
@@ -242,9 +247,9 @@ font-family: Kalam, serif;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: .5rem 0rem .5rem 3rem;
     text-decoration: none;
-    font-size: 1px;
+    font-size: 1.5rem;
   }
   
   /* Change the color of links on hover */
@@ -264,4 +269,10 @@ font-family: Kalam, serif;
     display: none;
   } 
 
-  
+  @media screen and (max-width: 900px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }

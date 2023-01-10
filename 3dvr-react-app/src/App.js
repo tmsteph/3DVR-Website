@@ -5,6 +5,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   Container, Row, Col,
 } from 'react-bootstrap'
+import { Suspense } from 'react'
+
+import { Canvas } from '@react-three/fiber'
+import { Environment } from '@react-three/drei'
+
+import Model from './Model.js'
+
+import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
+import { useLoader } from '@react-three/fiber'
+
+function Scene() {
+  const obj = useLoader(OBJLoader, '/models/gif_house.gltf')
+  return <primitive object={obj} />
+}
 
 // var video = document.getElementById("myVideo");
 // video.oncanplaythrough = function() {
@@ -36,9 +50,7 @@ import {
     <body className = "App-body">
 
      
-     {/*------- top navbar section -------*/}
-    
-
+     {/*-------Start top navbar section -------*/}
 <div class="topnav" id="myTopnav">
 <a  href="#home">3dvr.tech</a>
 <a  href="#home">Home</a>
@@ -47,7 +59,6 @@ import {
 <a href="#biography-section">Biography</a>
 <a href="#home"><img src={logo} className="nav-logo" alt="logo"></img></a>
 </div>
-
 {/*---------- end top-nav---------*/}
 
      {/*---------------------  logo    ------------------------*/}
@@ -132,8 +143,8 @@ import {
 	{/* <p>We've done the reasearch to make sure your app runs smoothly  */}
 	  {/* across all devices.</p>  */}
 	
-	<p><em>Showcase experiences
-    using the power of the web 
+	<p><em>Showcase
+    using the web 
     </em></p> 
 	
 	<h4><a href="https://threejs.org/examples/#webgl_animation_keyframes" className="plain-link"  rel="noreferrer" target="_blank"> three.js</a></h4>
@@ -151,10 +162,10 @@ import {
   
   <div class = 'col-md what-we-do-column-formatting'>
 	<h2>Metaverse Worlds</h2>
-  <p><em>Create realistic immersive environments.</em></p>
-	<h4>Unity 3d</h4>
-  <h4>Alspace Worlds</h4>
-  <h4>Rec Room</h4>
+  <p><em>Create immersive environments.</em></p>
+	<h4><a href="https://unity.com/" className="plain-link" target="_blank" rel="noreferrer">Unity 3d</a></h4>
+  <h4><a href="https://altvr.com/" className="plain-link" target="_blank" rel="noreferrer">Alspace Worlds</a></h4>
+  <h4><a href="https://www.oculus.com/horizon-worlds/?utm_source=gg&utm_medium=ps&utm_campaign=18478966980&utm_term=meta%20horizons&utm_content=&gclid=CjwKCAiA7IGcBhA8EiwAFfUDsbe7VWAroCKuytXFBZrjncitQjHIFL-ATeVgZPn1d7tZbHWGF1JPCBoC7egQAvD_BwE&gclsrc=aw.ds" className="plain-link" target="_blank" rel="noreferrer">Meta Horizons</a></h4>
 	</div>
   </div>  
   </div>
@@ -168,60 +179,49 @@ import {
 
 
 
-<video preload="none" autoplay="autoplay" id="video"  muted playsinline loop>
-  <source src={unityhousevideo} type="video/mp4"/>Your Broser DOes not support this video
-</video>
 
-     <div className="invisible" > 
-     
-     {/* {(() => {
 
-     document.querySelector('video').playbackRate = .1
-    })()} */}
-
-    {/* <>
-    {(() => {
-      
-      let options = {
-        root: null,
-      rootMargin:'0px',
-      threshold:1.0
-    };
-    
-    let callback = (entries, observer)=>{
-      entries.forEach(entry => {
-        if(entry.target.id == 'video')
-        {
-          if (entry.isIntersecting){
-             entry.target.play();
-            }
-            else{
-              entry.target.pause();
-            }
-          }
-          
-        })};
-        
-        let observer = IntersectionObserver(callback, options);
-        observer.observe(document.querySelector('#video'));
-        
-      })()}
-      </> */}
-    
-    
-      
-     </div>
 
       <div class = 'row'>
 	<h1 className = "z-index" >Projects</h1>
-        <div class = 'col' className="z-index projects-sections"><h2> House in Unity</h2>
-        <p>This is a House we made for Alspace using Unity3D 
-          and AlspaceVR.
+        
+        <div class = 'col' className="z-index projects-sections"><h2><a href="https://account.altvr.com/worlds/1811899537686528860/spaces/1829292561525637486" className="plain-link" target="_blank" rel="noreferrer"> House in Unity</a></h2>
+        <p>This is a House we made using Unity3D 
+          hosted on AlspaceVR.
         </p>
+        <video preload="none" autoplay="autoplay" id="video"  muted playsinline loop>
+  <source src={unityhousevideo} type="video/mp4"/>Your Broser DOes not support this video
+</video>
         </div>
 	<div class = 'col' className="z-index projects-sections"><h2>Gif English Center</h2>
-  <p>Gif English Center is a remarkable place in guatemala
-    where people of all ages can learn english. </p></div>
+  <p>Gif English Center is a remarkable place in Guatemala
+    where people of all ages can learn english. </p>
+    <p>We are helping them build an online language learning platform.</p>
+    
+
+      {/* <Canvas><Environment><Scene></Scene></Environment></Canvas> */}
+    
+    {/* <Canvas>
+        <Suspense fallback={null}>
+          <Scene><Model/></Scene>
+          <Environment preset="sunset" background />
+        </Suspense>
+      </Canvas> */}
+
+      
+    {/* <Canvas>
+        <Suspense fallback={null}>
+          <Model />
+          <Environment preset="sunset" background />
+        </Suspense>
+      </Canvas> */}
+    
+  
+    
+
+    
+    
+    </div>
   </div>
   </div>
 	</div>
@@ -255,11 +255,11 @@ import {
                 that is free from borders and boundaries.</p>
 
             <p className = "thomas-biography-paragraph">
-              With a background in Music, live events, and computer programming; 
+              With a background in music, live events, and computer programming; 
 
-              he is ready to pay attention to the details that make 
+              he is ready to capture the details that make 
               
-              any experience believable, relatable, and polished.              
+              any experience relatable, believable and polished.              
             </p>
             
             </div>
@@ -273,15 +273,16 @@ import {
             <h2 className = "david-biography-name">David Martínez R.</h2>  
             {/* Paragraphs */}
             <p className = "david-biography-paragraph">
-              David has been working as a designer in fields of web design, photography,
-              3D modeling and animation.</p>
+              David has been working as a designer in the fields of web design,
+              3D modeling, and animation.</p>
 
               <p className = "david-biography-paragraph">
-                He is excited to step into the Virtual World to take the next step into 3DVR Design </p>
+                He is excited to take the next steps into virtual reality. </p>
             
             <p className = "david-biography-paragraph">
-              Creative, visionar, and artist. David has a passion for learning new technologies. </p>
-            <p className = "david-biography-paragraph projects-sections"></p>  
+              Creative, visionary, and artist; David has a passion for learning 
+              new technologies. </p>
+            <p className = "david-biography-paragraph"></p>  
             </div>  {/* Close of david-biography */}
             </Col> 
             </Row>
