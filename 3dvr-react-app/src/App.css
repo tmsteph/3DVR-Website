@@ -184,9 +184,10 @@ font-family: Kalam, serif;
   padding-bottom:10rem;
 }
 .biography-title{
-  font-size : 4rem;
+  font-size :2rem;
   font-weight: bold;
-  padding: 5rem;
+  padding: 3rem;
+  align:center;
 }
 .thomas-biography-name{
   font-size: 1.5rem;
