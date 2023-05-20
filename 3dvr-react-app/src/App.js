@@ -52,6 +52,7 @@ function Scene() {
      
      {/*-------Start top navbar section -------*/}
 <div class="topnav" id="myTopnav">
+<a href="#home">test</a>
 <a  href="#home">3dvr.tech</a>
 <a  href="#home">Home</a>
 <a href="#what-we-do-section">What We Do</a>
