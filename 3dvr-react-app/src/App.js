@@ -69,7 +69,6 @@ function Scene() {
         {/* Productions */}
         <p className= "Productions">
           Productions
-Hello Button!!
         </p>
         
         {/* Catchphrase */}
