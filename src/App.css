@@ -112,6 +112,7 @@ font-family: Kalam, serif;
 .tool-list{
   font-size:3.5vw;
 
+  list-style-type: none;
   margin: 0;
   position: relative;
   top: 50%;
