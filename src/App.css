@@ -98,12 +98,25 @@ font-family: Kalam, serif;
   font-family: Kalam, serif;
 }
 .using-free{
+
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   font-size:4.5vw;
   font-weight:500;
-  padding-top:6rem;
+  
+
+
 }
 .tool-list{
-  font-size:3.5vw
+  font-size:3.5vw;
+
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
 }
 
 .plan-section{
