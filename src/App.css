@@ -281,3 +281,9 @@ font-family: Kalam, serif;
       display: block;
     }
   } */
+
+  @media (max-width: 600px) {
+  .topnav a {
+    font-size: 1.5vw;
+  }
+}
