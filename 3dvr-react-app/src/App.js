@@ -62,7 +62,7 @@ function Scene() {
 {/*---------- end top-nav---------*/}
 
      {/*---------------------  logo    ------------------------*/}
-     <div id="home">
+     <div className="home-section" id="home">
       <img src={logo} className="App-logo" alt="logo" />
         {/* above is the import for the logo */}
         

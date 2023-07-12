@@ -33,6 +33,9 @@
   }
 }
 
+.home-section {
+  min-height:100vh
+}
 
 .App-logo {
   pointer-events: none;
@@ -52,6 +55,8 @@ from {
     opacity: 1;
   }
 }
+ 
+
 
 .Productions {
   color:rgb(193, 213, 220);
@@ -69,6 +74,7 @@ from {
   }
 
 .introduction-section{
+  min-height:100vh;
   width:100%;
   padding: 20rem 0 20rem 0;
   background: linear-gradient(#3b4548 5% , #8ec6d7 30% 70%, #b37070 90% 100%  ); 
@@ -91,6 +97,7 @@ font-family: Kalam, serif;
 }
 
 .tool-section{
+  min-height:100vh;
   width:100%;
   background: linear-gradient(#b37070 80%, #9d4ca9); 
   margin-top:-.5rem;
@@ -120,6 +127,7 @@ font-family: Kalam, serif;
 }
 
 .plan-section{
+  min-height:100vh;
   width:100%;
   background: linear-gradient( #9d4ca9 70% ,#edc2c2 90%); 
   padding: 20rem 0 40rem ;
@@ -133,6 +141,7 @@ font-family: Kalam, serif;
 }
 
 .what-we-do-section {
+  min-height:100vh;
   width:100%;
   background-color: #edc2c2;
   padding-top:5rem;
@@ -157,6 +166,7 @@ font-family: Kalam, serif;
   color: black;
 }
 .projects-section {
+  min-height: 100vh;
   width:100%;
   background-color:#a0d0ff;
   padding: 5rem;
@@ -192,6 +202,7 @@ font-family: Kalam, serif;
   position:absolute;
 }
 .biography-section{
+  min-height: 100vh;
   width:100%;
   background-color: rgb(200,200,255);
   font-size: 5vw;
