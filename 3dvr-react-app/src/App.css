@@ -102,7 +102,21 @@ font-family: Kalam, serif;
   font-weight:500;
 }
 .tool-list{
-  font-size:3.5vw
+  font-size:3.5vw;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tool-list li {
+  position: relative;
+  padding-left: .1em;
+}
+
+.tool-list li::before {
+  content: "•";
+  position: absolute;
+  left: 4.5em;
+  color: black; /* adjust color to match your design */
 }
 
 .plan-section{

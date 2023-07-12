@@ -95,22 +95,19 @@ function Scene() {
         <div className = "tool-section">
 
 
-          {/* <Container> */}
-         <Row>
-          <Col>
-
+        <Row className="d-flex align-items-center">
+    <Col>
         <h2 className = "using-free">Using the latest Tools</h2>
-          </Col> 
-          <Col> 
+    </Col> 
+    <Col> 
         <ul className = "tool-list">
-          {/* <li>Blender 3D</li> someday..*/}
-          <li>Unity</li>
-          <li>three.js</li>
-          <li>React</li>
+            {/* <li>Blender 3D</li> someday..*/}
+            <li>Unity</li>
+            <li>three.js</li>
+            <li>React</li>
         </ul>
-        </Col>
-        </Row>
-        {/* </Container> */} 
+    </Col>
+</Row> 
         </div>
 
 
