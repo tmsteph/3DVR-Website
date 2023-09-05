@@ -144,7 +144,7 @@ font-family: Kalam, serif;
   min-height:100vh;
   width:100%;
   /* background-color: #edc2c2; */
-  background: linear-gradient(#edc2c2,#a0d0ff);
+  background: linear-gradient(#edc2c2 80%,#a0d0ff);
   padding-top:5rem;
   padding-bottom:12rem;
 }
@@ -169,7 +169,8 @@ font-family: Kalam, serif;
 .projects-section {
   min-height: 100vh;
   width:100%;
-  background-color:#a0d0ff;
+  background: linear-gradient(#a0d0ff,#3b454869);
+  /* background-color:#a0d0ff; */
   padding: 5rem;
   padding-bottom: 10vw;
 
@@ -203,9 +204,10 @@ font-family: Kalam, serif;
   position:absolute;
 }
 .biography-section{
+  background: linear-gradient(#a0d0ff,#3b454869);
   min-height: 100vh;
   width:100%;
-  background-color: rgb(200,200,255);
+  /* background-color: rgb(200,200,255); */
   font-size: 5vw;
   padding-bottom:10rem;
 }
