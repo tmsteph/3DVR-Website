@@ -143,7 +143,8 @@ font-family: Kalam, serif;
 .what-we-do-section {
   min-height:100vh;
   width:100%;
-  background-color: #edc2c2;
+  /* background-color: #edc2c2; */
+  background: linear-gradient(#edc2c2,#a0d0ff);
   padding-top:5rem;
   padding-bottom:12rem;
 }

@@ -172,13 +172,6 @@ function Scene() {
 	<div className = "projects-section" id="projects-section">
     <div class = 'container'>
 
-
-
-
-
-
-
-
       <div class = 'row'>
 	<h1 className = "z-index" >Projects</h1>
         
