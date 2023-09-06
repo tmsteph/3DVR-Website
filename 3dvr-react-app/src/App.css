@@ -7,6 +7,21 @@
   font-size: 5vw
 }
 
+body {
+  margin: 0;
+}
+
+.App, .App-body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Rest of your CSS code... */
+
+
 .App {
   text-align: center;
   /* background-color: #3b4548; */
@@ -85,15 +100,15 @@ from {
 .we-are-a{
   font-size: 5.2vw;
   font-weight: 600;
-padding: 10rem 0 2rem;
-font-family: Kalam, serif;
+  padding: 10rem 0 2rem;
+  font-family: Kalam, serif;
 }
 .creating-universal{
 
   font-size: 5.2vw;
   font-weight:600;
   padding: 5rem 0 15rem;
-font-family: Kalam, serif;
+  font-family: Kalam, serif;
 }
 
 .tool-section{
@@ -249,11 +264,13 @@ margin-right: -1em;
 .nav-logo {
   width: 10vw;
   margin-right:1rem;
-  margin-left:8rem;
+  margin-left:1rem;
   margin-top:.167rem;
 
-  position: absolute;
+  /* position: absolute; */
   right: 0;
+  float: right;
+  padding-right:0;
 }
 
 /* Add a black background color to the top navigation */
