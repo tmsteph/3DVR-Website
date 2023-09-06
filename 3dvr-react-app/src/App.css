@@ -267,7 +267,7 @@ margin-right: -1em;
   margin-left:1rem;
   margin-top:.167rem;
 
-  /* position: absolute; */
+  position: absolute; 
   right: 0;
   float: right;
   padding-right:0;
