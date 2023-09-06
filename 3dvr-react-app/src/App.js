@@ -103,7 +103,8 @@ function Scene() {
         <ul className = "tool-list">
             {/* <li>Blender 3D</li> someday..*/}
             <li>Unity</li>
-            <li>three.js</li>
+            <li className = "three-tool-list">Three.js</li>
+            
             <li>React</li>
         </ul>
     </Col>

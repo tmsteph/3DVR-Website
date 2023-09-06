@@ -117,6 +117,14 @@ font-family: Kalam, serif;
 .tool-list li {
   position: relative;
   padding-left: .1em;
+
+}
+
+.three-tool-list {
+
+margin-right: -1em;
+
+  
 }
 
 .tool-list li::before {
