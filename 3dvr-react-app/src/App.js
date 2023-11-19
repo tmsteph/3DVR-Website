@@ -40,6 +40,7 @@ function Scene() {
       
       
       <div className="App">
+	    
       {/* Below is the beginning section for the app header*/}
 
       <header  className="App-header">
@@ -50,7 +51,7 @@ function Scene() {
     <body className = "App-body">
 
      
-     {/*-------Start top navbar section -------*/}
+     {/*-------Start top-nav -------*/}
 <div class="topnav" id="myTopnav">
 <a  href="#home">3dvr.tech</a>
 <a  href="#home">Home</a>
@@ -61,10 +62,11 @@ function Scene() {
 </div>
 {/*---------- end top-nav---------*/}
 
+{/*---------------- Logo Section -----------------*/}
      {/*---------------------  logo    ------------------------*/}
      <div className="home-section" id="home">
       <img src={logo} className="App-logo" alt="logo" />
-        {/* above is the import for the logo */}
+        {/* -----------------end logo ----------------------- */}
         
         {/* Productions */}
         <p className= "Productions">
@@ -77,7 +79,8 @@ function Scene() {
         </p>
 
         </div>
-
+	  {/* ----- End Logo Section -------*/}
+	  
         {/*-------- introduction section -------- */}
 
         <div className = "introduction-section">
